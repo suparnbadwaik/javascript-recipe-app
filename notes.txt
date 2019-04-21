@@ -1,0 +1,28 @@
+API used in the course :
+https://www.food2fork.com/
+https://www.food2fork.com/about/api
+Sign up on this website to get an API Key to be used while sending the request.
+Check in the API doc for any query you need to make.
+
+CORS : If API gives CORS issue, there are tools like CORS anywhere which help you to ignore those problems
+Refer index.js => getResults method.
+
+
+Axios :
+Popular library to fetch http requests.
+We will use axios to fetch data from the Recipe API
+Install axios => npm install axios --save
+Refer in any js file with the name axios (since this is the name npm saves in package..json)
+
+
+
+
+Webpack :
+1. Create test.js and export a variable
+2. Create index.js and import test.js
+3. Install Webpack and Webpack-cli using npm
+4. In package.json, add scripts -> dev : webpack
+5. Creat webpack.config.js and add entrypoint and bundle location
+6. To run and bundle the app, use the below :
+npm run dev
+where dev script is mentioned in package.json file with the command webpack
